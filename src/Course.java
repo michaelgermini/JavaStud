@@ -1,9 +1,8 @@
 public class Course {
 
-	private String	course	= "JAVA";
+	private static String	course	= "JAVA";
 
-	public void showCourse( ) {
+	public static void main(String[] args) {
 		System.out.println( "Course name is: " + course );
 	}
-
 }

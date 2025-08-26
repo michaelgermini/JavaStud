@@ -197,8 +197,17 @@ JavaStud/
 - **Custom Comparators**: Lambda expressions for complex sorting
 - **Streams API**: Functional programming with collections
 - **Concurrent Collections**: Thread-safe operations (ConcurrentHashMap, CopyOnWriteArrayList)
-- **Specialized Collections**: WeakHashMap, EnumMap, IdentityHashMap
+- **Specialized Collections**: WeakHashMap, EnumMap, IdentityHashMap, Properties
 - **Performance Optimization**: When to use each collection type
+
+#### 🔧 Specialized Collections Examples
+| Collection | File | Purpose |
+|------------|------|---------|
+| **EnumMap** | `EnumMapExample.java` | Optimized for enum keys with array-based storage |
+| **IdentityHashMap** | `IdentityHashMapExample.java` | Reference-based key comparison (== instead of equals()) |
+| **CopyOnWriteArrayList** | `CopyOnWriteArrayListExample.java` | Thread-safe list for read-heavy workloads |
+| **BlockingQueue** | `BlockingQueueExample.java` | Producer-consumer pattern with blocking operations |
+| **Properties** | `PropertiesExample.java` | Configuration management with file I/O support |
 
 ### ⚡ Multithreading
 | Concept | Implementation | Examples |
@@ -263,7 +272,7 @@ The project includes **59 comprehensive assignments** covering practical program
 
 | Metric | Value | Status |
 |--------|-------|--------|
-| **Total Java Files** | 200 | ✅ Excellent |
+| **Total Java Files** | 206 | ✅ Excellent |
 | **Project Size** | 1.76 MB | ✅ Optimal |
 | **Source Directories** | 15 | ✅ Well-organized |
 | **External Dependencies** | 2 JAR files | ✅ Minimal |
@@ -276,7 +285,7 @@ The project includes **59 comprehensive assignments** covering practical program
 ```
 src/
 ├── 📁 oop/ (8 subdirectories) - Object-Oriented Programming
-├── 📁 collection/ (11 files) - Collections Framework
+├── 📁 collection/ (21 files) - Collections Framework
 ├── 📁 swing/ (10 files) - GUI Development
 ├── 📁 mthread/ (8 files) - Multithreading
 ├── 📁 jdbc/ (2 files) - Database Connectivity
@@ -291,10 +300,10 @@ src/
 #### **File Distribution by Topic**
 - **Core Java**: 11 files (5.5%)
 - **OOP**: 8 directories + files (15%)
-- **Collections**: 11 files (5.5%)
+- **Collections**: 21 files (10.2%)
 - **Swing**: 10 files (5%)
 - **Multithreading**: 8 files (4%)
-- **Other Topics**: 152 files (76%)
+- **Other Topics**: 146 files (70.9%)
 
 ### 📈 **Code Quality Assessment**
 

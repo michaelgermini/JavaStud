@@ -26,19 +26,25 @@ JavaStud is a comprehensive Java learning project that provides practical exampl
 ### ✨ Key Features
 
 - **📚 Comprehensive Coverage**: From basic syntax to enterprise frameworks
-- **🎯 Hands-on Learning**: 59 practical assignments with real-world scenarios
+- **🎯 Hands-on Learning**: 59 practical assignments + 3 collection exercise files
 - **🏗️ Well-Organized**: Code structured by topics for easy navigation
 - **🔄 Progressive Learning**: Step-by-step progression from basics to advanced
-- **🛠️ IDE Ready**: Pre-configured for Eclipse with proper project structure
-- **📖 Rich Documentation**: Detailed explanations and external resources
+- **🛠️ Modern Build System**: Maven configuration with all dependencies
+- **🧪 Testing Framework**: 29 comprehensive unit tests with JUnit 5
+- **🌐 Modern Applications**: Spring Boot web app + JavaFX desktop app
 - **🎨 GUI Examples**: Complete Swing-based applications
-- **🗄️ Database Integration**: JDBC and ORM examples
-- **⚡ Multithreading**: Concurrent programming examples
+- **🗄️ Database Integration**: JDBC, Hibernate ORM, and Spring Data JPA
+- **⚡ Multithreading**: Concurrent programming with thread-safe collections
+- **🎭 Design Patterns**: Singleton pattern implementation with 6 variations
+- **📖 Rich Documentation**: 10 documentation files + detailed explanations
+- **🤖 Automation Scripts**: Build and run scripts for easy deployment
+- **🔧 Professional Tools**: Modern development practices and tools
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- ✅ Java JDK 8 or higher
+- ✅ Java JDK 17 or higher
+- ✅ Maven 3.6+ (for build automation)
 - ✅ Eclipse IDE (recommended) or IntelliJ IDEA
 - ✅ Git
 
@@ -51,42 +57,57 @@ git clone https://github.com/michaelgermini/JavaStud.git
 # 2. Navigate to project directory
 cd JavaStud
 
-# 3. Open in Eclipse: File → Import → Existing Projects into Workspace
-# 4. Configure build path: Right-click project → Properties → Java Build Path
-# 5. Add JAR files to classpath: forms-1.3.0.jar, miglayout15-swing.jar
+# 3. Build the project with Maven
+mvn clean compile
+
+# 4. Run tests
+mvn test
+
+# 5. Package the application
+mvn package
+
+# 6. Open in Eclipse: File → Import → Existing Maven Projects
+# 7. Or use the provided scripts: scripts/build.bat and scripts/run.bat
 ```
 
 ### 🎯 First Steps
 
 1. **Start with Basics**: Open `src/HelloWorld.java`
 2. **Run Examples**: Right-click any `.java` file → Run As → Java Application
-3. **Follow Learning Path**: Progress through topics in order
-4. **Complete Assignments**: Practice with 59 hands-on exercises
+3. **Test Your Code**: Run `mvn test` to execute all unit tests
+4. **Try Modern Apps**: Launch Spring Boot app or JavaFX application
+5. **Follow Learning Path**: Progress through topics in order
+6. **Complete Assignments**: Practice with 59 hands-on exercises + collection exercises
 
 ## 📁 Project Structure
 
 ```
 JavaStud/
 ├── 📁 src/                    # Source code organized by topics
-│   ├── 📁 oop/               # Object-Oriented Programming examples
 │   ├── 📁 collection/        # Collections Framework examples (26 files)
 │   │   ├── Basic Collections (ArrayList, LinkedList, HashSet, HashMap, etc.)
 │   │   ├── Advanced Features (Streams, Custom Comparators, Functional Programming)
 │   │   ├── Concurrent Collections (ConcurrentHashMap, CopyOnWriteArrayList, BlockingQueue)
 │   │   └── Specialized Collections (WeakHashMap, EnumMap, IdentityHashMap, Properties)
-│   ├── 📁 swing/            # GUI programming with Swing
-│   ├── 📁 jdbc/             # Database connectivity examples
-│   ├── 📁 mthread/          # Multithreading examples
-│   ├── 📁 io/               # Input/Output operations
-│   ├── 📁 exhand/           # Exception handling
-│   ├── 📁 innerclass/       # Inner classes examples
-│   ├── 📁 datereflection/   # Date/Time and Reflection API
-│   └── 📁 control/          # Control structures
+│   ├── 📁 control/           # Control structures (22 files)
+│   ├── 📁 io/               # Input/Output operations (17 files)
+│   ├── 📁 exhand/           # Exception handling (12 files)
+│   ├── 📁 innerclass/       # Inner classes examples (11 files)
+│   ├── 📁 swing/            # GUI programming with Swing (10 files)
+│   ├── 📁 mthread/          # Multithreading examples (8 files)
+│   ├── 📁 oop/              # Object-Oriented Programming examples (8 files)
+│   ├── 📁 datereflection/   # Date/Time and Reflection API (8 files)
+│   ├── 📁 patterns/         # Design Patterns (Singleton with 6 variations)
+│   ├── 📁 springboot/       # Spring Boot web applications
+│   ├── 📁 javafx/           # JavaFX desktop applications
+│   └── 📁 test/             # Unit tests (29 files)
+├── 📁 docs/                 # Documentation (6 files)
+├── 📁 scripts/              # Build and run scripts
 ├── 📁 resource/             # Project resources
 │   ├── 📁 lib/             # External libraries
 │   ├── 📁 assignments/     # Assignment files
 │   └── 📁 reference/       # Reference materials
-├── ⚙️ .settings/           # Eclipse IDE settings
+├── 📦 pom.xml              # Maven configuration
 ├── 📦 forms-1.3.0.jar      # Forms library for Swing
 ├── 📦 miglayout15-swing.jar # Layout manager for Swing
 └── 📄 README.md           # This file

@@ -130,6 +130,27 @@ This directory contains comprehensive examples of Java Collections Framework, co
   - Scheduled task execution
   - Cache expiration management
 
+### 5. Practice and Exercise Files
+
+- **`CollectionExercises.java`** - Comprehensive Collection Exercises:
+  - 8 progressive challenges covering all collection types
+  - Real-world application scenarios
+  - Performance optimization techniques
+  - Multi-threaded collection operations
+  - Custom collection implementations
+
+- **`AdvancedCollectionExercises.java`** - Advanced Collection Challenges:
+  - Complex data processing pipelines
+  - Multi-threaded collection operations
+  - Custom collection implementations
+  - Performance optimization techniques
+
+- **`CollectionPracticeExercises.java`** - Progressive Difficulty Exercises:
+  - Beginner level (Level 1-2): Basic operations
+  - Intermediate level (Level 3-4): Sorting, comparators, streams
+  - Advanced level (Level 5-6): Concurrent collections, advanced streams
+  - Expert level (Level 7-8): Custom implementations, performance analysis
+
 ## 🚀 When to Use Each Collection
 
 ### Choose List Implementation:
@@ -178,6 +199,32 @@ This directory contains comprehensive examples of Java Collections Framework, co
 | PriorityQueue | O(1) | O(log n) | O(log n) | O(n) | Priority |
 | ConcurrentSkipListMap | O(log n) | O(log n) | O(log n) | O(log n) | Sorted |
 | DelayQueue | O(1) | O(log n) | O(log n) | O(n) | Delay |
+
+## 📚 Exercise Categories
+
+### Beginner Level (Level 1-2)
+- Basic List, Set, and Map operations
+- Simple iteration and modification
+- Understanding collection interfaces
+
+### Intermediate Level (Level 3-4)
+- Sorting and custom comparators
+- Queue and PriorityQueue operations
+- Basic Stream API usage
+- Collection utility methods
+
+### Advanced Level (Level 5-6)
+- Concurrent collections (ConcurrentHashMap, CopyOnWriteArrayList)
+- BlockingQueue and producer-consumer patterns
+- Advanced Stream operations (grouping, reducing)
+- Performance considerations
+
+### Expert Level (Level 7-8)
+- Custom collection implementations
+- Multi-threaded collection operations
+- Memory management with WeakHashMap
+- Performance analysis and optimization
+- Complex data processing pipelines
 
 ## 🔧 Running the Examples
 

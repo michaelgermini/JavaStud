@@ -69,7 +69,7 @@ cd JavaStud
 JavaStud/
 ├── 📁 src/                    # Source code organized by topics
 │   ├── 📁 oop/               # Object-Oriented Programming examples
-│   ├── 📁 collection/        # Collections Framework examples (23 files)
+│   ├── 📁 collection/        # Collections Framework examples (26 files)
 │   │   ├── Basic Collections (ArrayList, LinkedList, HashSet, HashMap, etc.)
 │   │   ├── Advanced Features (Streams, Custom Comparators, Functional Programming)
 │   │   ├── Concurrent Collections (ConcurrentHashMap, CopyOnWriteArrayList, BlockingQueue)
@@ -211,6 +211,13 @@ JavaStud/
 | **ConcurrentSkipListMap** | `ConcurrentSkipListMapExample.java` | Thread-safe sorted map with navigation methods |
 | **DelayQueue** | `DelayQueueExample.java` | Queue with expiration-based processing and TTL support |
 
+#### 📚 **Practice and Exercise Files**
+| Collection Type | File | Description |
+|----------------|------|-------------|
+| **Comprehensive Exercises** | `CollectionExercises.java` | 8 progressive challenges covering all collection types |
+| **Advanced Challenges** | `AdvancedCollectionExercises.java` | Complex data processing and custom implementations |
+| **Progressive Practice** | `CollectionPracticeExercises.java` | 4 difficulty levels (Beginner to Expert) |
+
 ### ⚡ Multithreading
 | Concept | Implementation | Examples |
 |---------|----------------|----------|
@@ -274,7 +281,7 @@ The project includes **59 comprehensive assignments** covering practical program
 
 | Metric | Value | Status |
 |--------|-------|--------|
-| **Total Java Files** | 208 | ✅ Excellent |
+| **Total Java Files** | 211 | ✅ Excellent |
 | **Project Size** | 1.76 MB | ✅ Optimal |
 | **Source Directories** | 15 | ✅ Well-organized |
 | **External Dependencies** | 2 JAR files | ✅ Minimal |
@@ -287,7 +294,7 @@ The project includes **59 comprehensive assignments** covering practical program
 ```
 src/
 ├── 📁 oop/ (8 subdirectories) - Object-Oriented Programming
-├── 📁 collection/ (23 files) - Collections Framework
+├── 📁 collection/ (26 files) - Collections Framework
 ├── 📁 swing/ (10 files) - GUI Development
 ├── 📁 mthread/ (8 files) - Multithreading
 ├── 📁 jdbc/ (2 files) - Database Connectivity
@@ -302,10 +309,10 @@ src/
 #### **File Distribution by Topic**
 - **Core Java**: 11 files (5.5%)
 - **OOP**: 8 directories + files (15%)
-- **Collections**: 23 files (11.1%)
+- **Collections**: 26 files (12.3%)
 - **Swing**: 10 files (5%)
 - **Multithreading**: 8 files (4%)
-- **Other Topics**: 144 files (69.2%)
+- **Other Topics**: 141 files (66.8%)
 
 ### 📈 **Code Quality Assessment**
 

@@ -69,11 +69,11 @@ cd JavaStud
 JavaStud/
 ├── 📁 src/                    # Source code organized by topics
 │   ├── 📁 oop/               # Object-Oriented Programming examples
-│   ├── 📁 collection/        # Collections Framework examples (15 files)
+│   ├── 📁 collection/        # Collections Framework examples (21 files)
 │   │   ├── Basic Collections (ArrayList, LinkedList, HashSet, HashMap, etc.)
 │   │   ├── Advanced Features (Streams, Custom Comparators, Functional Programming)
 │   │   ├── Concurrent Collections (ConcurrentHashMap, CopyOnWriteArrayList, BlockingQueue)
-│   │   └── Specialized Collections (WeakHashMap, EnumMap, IdentityHashMap)
+│   │   └── Specialized Collections (WeakHashMap, EnumMap, IdentityHashMap, Properties)
 │   ├── 📁 swing/            # GUI programming with Swing
 │   ├── 📁 jdbc/             # Database connectivity examples
 │   ├── 📁 mthread/          # Multithreading examples
@@ -120,7 +120,9 @@ JavaStud/
 - ✅ Collections utility methods
 - ✅ Advanced features: Streams, Custom Comparators, Functional Programming
 - ✅ Concurrent Collections: Thread-safe operations
-- ✅ Specialized Collections: WeakHashMap, EnumMap, IdentityHashMap
+- ✅ Specialized Collections: WeakHashMap, EnumMap, IdentityHashMap, Properties
+- ✅ BlockingQueue: Producer-consumer patterns
+- ✅ CopyOnWriteArrayList: Thread-safe read-heavy lists
 
 ### ⚡ **Level 5: Concurrent Programming**
 - ✅ Thread creation and lifecycle

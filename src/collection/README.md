@@ -88,6 +88,36 @@ This directory contains comprehensive examples of Java Collections Framework, co
   - **Properties** - Configuration management
   - Weak references
 
+- **`EnumMapExample.java`** - Enum-based Map implementation:
+  - Optimized for enum keys with array-based storage
+  - Excellent performance for enum key lookups
+  - Memory-efficient for enum-based mappings
+  - Perfect for state machines and configuration
+
+- **`IdentityHashMapExample.java`** - Reference-based Map:
+  - Uses == instead of equals() for key comparison
+  - Useful for object identity tracking
+  - Good for caching and object lifecycle management
+  - Demonstrates reference equality vs content equality
+
+- **`CopyOnWriteArrayListExample.java`** - Thread-safe List:
+  - Optimized for read-heavy workloads
+  - Creates new copy on modifications
+  - No external synchronization needed
+  - Perfect for event listeners and configuration lists
+
+- **`BlockingQueueExample.java`** - Thread-safe Queue:
+  - Producer-consumer pattern implementation
+  - Blocking operations for thread coordination
+  - Multiple implementations (ArrayBlockingQueue, LinkedBlockingQueue, PriorityBlockingQueue)
+  - Ideal for work queues and task processing
+
+- **`PropertiesExample.java`** - Configuration Management:
+  - String-based key-value pairs
+  - File I/O operations (properties and XML)
+  - System properties integration
+  - Hierarchical configuration with defaults
+
 ## 🚀 When to Use Each Collection
 
 ### Choose List Implementation:

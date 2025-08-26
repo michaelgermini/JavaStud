@@ -118,6 +118,18 @@ This directory contains comprehensive examples of Java Collections Framework, co
   - System properties integration
   - Hierarchical configuration with defaults
 
+- **`ConcurrentSkipListMapExample.java`** - Thread-safe Sorted Map:
+  - Concurrent sorted map implementation
+  - Navigation methods (first, last, higher, lower)
+  - Submap operations for range queries
+  - Perfect for ordered concurrent data structures
+
+- **`DelayQueueExample.java`** - Delayed Processing Queue:
+  - Queue with expiration-based ordering
+  - TTL (Time To Live) functionality
+  - Scheduled task execution
+  - Cache expiration management
+
 ## 🚀 When to Use Each Collection
 
 ### Choose List Implementation:
@@ -148,6 +160,8 @@ This directory contains comprehensive examples of Java Collections Framework, co
 - **EnumMap**: When you have enum keys (much faster than HashMap)
 - **IdentityHashMap**: When you need identity-based key comparison
 - **Properties**: When you need configuration management
+- **ConcurrentSkipListMap**: When you need a thread-safe sorted map with navigation methods
+- **DelayQueue**: When you need to process items after specific delays or TTL functionality
 
 ## 📊 Performance Characteristics
 
@@ -162,6 +176,8 @@ This directory contains comprehensive examples of Java Collections Framework, co
 | LinkedHashMap | O(1) | O(1) | O(1) | O(1) | Insertion/Access |
 | TreeMap | O(log n) | O(log n) | O(log n) | O(log n) | Sorted |
 | PriorityQueue | O(1) | O(log n) | O(log n) | O(n) | Priority |
+| ConcurrentSkipListMap | O(log n) | O(log n) | O(log n) | O(log n) | Sorted |
+| DelayQueue | O(1) | O(log n) | O(log n) | O(n) | Delay |
 
 ## 🔧 Running the Examples
 

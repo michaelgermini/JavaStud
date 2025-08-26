@@ -13,7 +13,7 @@
 
 **A comprehensive Java tutorial and example series designed to help developers learn Java step-by-step through practical examples and hands-on projects.**
 
-[🚀 Quick Start](#-quick-start) • [📚 Learning Path](#-learning-path) • [🎯 Features](#-features) • [📖 Topics](#-topics-covered) • [📝 Assignments](#-assignments) • [🔍 Project Audit](#-project-audit)
+[🚀 Quick Start](docs/quick-start.md) • [📚 Learning Path](docs/learning-path.md) • [🎯 Features](docs/features.md) • [📖 Topics](docs/topics.md) • [📝 Assignments](docs/assignments.md) • [🔍 Project Audit](docs/project-audit.md)
 
 </div>
 

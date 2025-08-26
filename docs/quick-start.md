@@ -2,6 +2,13 @@
 
 Welcome to JavaStud! This guide will help you get started with the comprehensive Java learning project in just a few minutes.
 
+---
+
+## 📋 Navigation Menu
+- [🚀 Quick Start](quick-start.md) • [📚 Learning Path](learning-path.md) • [🎯 Features](features.md) • [📖 Topics](topics.md) • [📝 Assignments](assignments.md) • [🔍 Project Audit](project-audit.md)
+
+---
+
 ## 📋 Prerequisites
 
 Before you begin, make sure you have the following installed:
@@ -186,6 +193,11 @@ After completing the Quick Start:
 - **🐛 Issues**: Report bugs on GitHub Issues
 - **💬 Community**: Join discussions in GitHub Discussions
 - **📧 Contact**: Reach out to the project maintainers
+
+---
+
+## 📋 Navigation Menu
+- [🚀 Quick Start](quick-start.md) • [📚 Learning Path](learning-path.md) • [🎯 Features](features.md) • [📖 Topics](topics.md) • [📝 Assignments](assignments.md) • [🔍 Project Audit](project-audit.md)
 
 ---
 

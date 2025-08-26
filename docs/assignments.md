@@ -2,6 +2,13 @@
 
 JavaStud includes **59 comprehensive assignments** designed to provide hands-on practice and reinforce learning through real-world programming scenarios. These assignments progress from basic concepts to advanced enterprise development.
 
+---
+
+## 📋 Navigation Menu
+- [🚀 Quick Start](quick-start.md) • [📚 Learning Path](learning-path.md) • [🎯 Features](features.md) • [📖 Topics](topics.md) • [📝 Assignments](assignments.md) • [🔍 Project Audit](project-audit.md)
+
+---
+
 ## 🎯 Assignment Overview
 
 ### 📊 **Assignment Statistics**
@@ -474,6 +481,11 @@ JavaStud includes **59 comprehensive assignments** designed to provide hands-on 
 - **Interview Preparation**: Practice coding interviews with assignment problems
 - **Skill Enhancement**: Continue learning advanced Java concepts
 - **Networking**: Connect with Java developer community
+
+---
+
+## 📋 Navigation Menu
+- [🚀 Quick Start](quick-start.md) • [📚 Learning Path](learning-path.md) • [🎯 Features](features.md) • [📖 Topics](topics.md) • [📝 Assignments](assignments.md) • [🔍 Project Audit](project-audit.md)
 
 ---
 

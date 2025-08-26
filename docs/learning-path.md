@@ -2,6 +2,13 @@
 
 Welcome to the comprehensive Java learning journey! This structured path will guide you from basic Java concepts to advanced enterprise development.
 
+---
+
+## 📋 Navigation Menu
+- [🚀 Quick Start](quick-start.md) • [📚 Learning Path](learning-path.md) • [🎯 Features](features.md) • [📖 Topics](topics.md) • [📝 Assignments](assignments.md) • [🔍 Project Audit](project-audit.md)
+
+---
+
 ## 🎯 Learning Philosophy
 
 Our learning approach is based on:
@@ -520,6 +527,11 @@ After completing the learning path:
 3. **🤝 Contribute**: Help improve JavaStud
 4. **📚 Continue Learning**: Stay updated with latest Java features
 5. **💼 Career Development**: Apply for Java developer positions
+
+---
+
+## 📋 Navigation Menu
+- [🚀 Quick Start](quick-start.md) • [📚 Learning Path](learning-path.md) • [🎯 Features](features.md) • [📖 Topics](topics.md) • [📝 Assignments](assignments.md) • [🔍 Project Audit](project-audit.md)
 
 ---
 

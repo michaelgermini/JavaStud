@@ -2,6 +2,13 @@
 
 JavaStud is a comprehensive Java learning platform designed to provide an exceptional learning experience through practical examples, hands-on projects, and progressive skill development.
 
+---
+
+## 📋 Navigation Menu
+- [🚀 Quick Start](quick-start.md) • [📚 Learning Path](learning-path.md) • [🎯 Features](features.md) • [📖 Topics](topics.md) • [📝 Assignments](assignments.md) • [🔍 Project Audit](project-audit.md)
+
+---
+
 ## ✨ Key Features Overview
 
 ### 📚 **Comprehensive Coverage**
@@ -335,6 +342,11 @@ JavaStud is a comprehensive Java learning platform designed to provide an except
 6. **IDE Ready**: Pre-configured for immediate use
 7. **Extensive Documentation**: Detailed explanations and guides
 8. **Regular Updates**: Continuous improvement and new features
+
+---
+
+## 📋 Navigation Menu
+- [🚀 Quick Start](quick-start.md) • [📚 Learning Path](learning-path.md) • [🎯 Features](features.md) • [📖 Topics](topics.md) • [📝 Assignments](assignments.md) • [🔍 Project Audit](project-audit.md)
 
 ---
 

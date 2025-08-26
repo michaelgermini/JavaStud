@@ -2,6 +2,13 @@
 
 JavaStud provides comprehensive coverage of Java programming concepts, from basic syntax to advanced enterprise development. This guide details all the topics covered with practical examples and learning resources.
 
+---
+
+## 📋 Navigation Menu
+- [🚀 Quick Start](quick-start.md) • [📚 Learning Path](learning-path.md) • [🎯 Features](features.md) • [📖 Topics](topics.md) • [📝 Assignments](assignments.md) • [🔍 Project Audit](project-audit.md)
+
+---
+
 ## 🎯 Topic Overview
 
 ### 📊 **Coverage Statistics**
@@ -547,6 +554,11 @@ JavaStud provides comprehensive coverage of Java programming concepts, from basi
 - What is the difference between synchronized and volatile?
 - How do you prevent deadlocks?
 - When would you use ConcurrentHashMap?
+
+---
+
+## 📋 Navigation Menu
+- [🚀 Quick Start](quick-start.md) • [📚 Learning Path](learning-path.md) • [🎯 Features](features.md) • [📖 Topics](topics.md) • [📝 Assignments](assignments.md) • [🔍 Project Audit](project-audit.md)
 
 ---
 

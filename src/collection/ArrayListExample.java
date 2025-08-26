@@ -1,13 +1,13 @@
 package collection;
 
+import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 
 public class ArrayListExample {
 	public static void main( String[] args ) {
 
-		List< String > countryList = new LinkedList< String >( );
+		List< String > countryList = new ArrayList< String >( );
 		countryList.add( "Nepal" );
 		countryList.add( "China" );
 		countryList.add( "USA" );

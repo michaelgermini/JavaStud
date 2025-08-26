@@ -69,7 +69,11 @@ cd JavaStud
 JavaStud/
 ├── 📁 src/                    # Source code organized by topics
 │   ├── 📁 oop/               # Object-Oriented Programming examples
-│   ├── 📁 collection/        # Collections Framework examples
+│   ├── 📁 collection/        # Collections Framework examples (15 files)
+│   │   ├── Basic Collections (ArrayList, LinkedList, HashSet, HashMap, etc.)
+│   │   ├── Advanced Features (Streams, Custom Comparators, Functional Programming)
+│   │   ├── Concurrent Collections (ConcurrentHashMap, CopyOnWriteArrayList, BlockingQueue)
+│   │   └── Specialized Collections (WeakHashMap, EnumMap, IdentityHashMap)
 │   ├── 📁 swing/            # GUI programming with Swing
 │   ├── 📁 jdbc/             # Database connectivity examples
 │   ├── 📁 mthread/          # Multithreading examples
@@ -110,10 +114,13 @@ JavaStud/
 - ✅ Generics programming
 
 ### 🏆 **Level 4: Collections & Data Structures**
-- ✅ List, Set, Map interfaces
-- ✅ ArrayList, LinkedList, HashSet, HashMap
+- ✅ List, Set, Map, Queue interfaces
+- ✅ ArrayList, LinkedList, HashSet, HashMap, PriorityQueue
 - ✅ TreeSet, TreeMap for sorted collections
 - ✅ Collections utility methods
+- ✅ Advanced features: Streams, Custom Comparators, Functional Programming
+- ✅ Concurrent Collections: Thread-safe operations
+- ✅ Specialized Collections: WeakHashMap, EnumMap, IdentityHashMap
 
 ### ⚡ **Level 5: Concurrent Programming**
 - ✅ Thread creation and lifecycle
@@ -181,7 +188,15 @@ JavaStud/
 | **List** | ArrayList, LinkedList, Vector | Dynamic arrays, linked lists |
 | **Set** | HashSet, LinkedHashSet, TreeSet | Unique elements, sorted sets |
 | **Map** | HashMap, LinkedHashMap, TreeMap | Key-value pairs, sorted maps |
+| **Queue** | PriorityQueue, ArrayBlockingQueue | Priority-based processing, producer-consumer |
 | **Collections Utility** | Sorting, searching, synchronization | `CollectionSort.java` |
+
+#### 🚀 Advanced Collections Features
+- **Custom Comparators**: Lambda expressions for complex sorting
+- **Streams API**: Functional programming with collections
+- **Concurrent Collections**: Thread-safe operations (ConcurrentHashMap, CopyOnWriteArrayList)
+- **Specialized Collections**: WeakHashMap, EnumMap, IdentityHashMap
+- **Performance Optimization**: When to use each collection type
 
 ### ⚡ Multithreading
 | Concept | Implementation | Examples |
